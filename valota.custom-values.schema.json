@@ -142,7 +142,8 @@
 			"data_type": {
 			  "enum": [
 				"select",
-				"multiple"
+				"multiple",
+                "radio"
 			  ]
 			},
 			"options": {
@@ -190,7 +191,7 @@
             "type": "object",
             "properties": {
               "data_type": {
-                "enum": ["select", "multiple"]
+                "enum": ["select", "multiple", "radio"]
               }
             }
           }
