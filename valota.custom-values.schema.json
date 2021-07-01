@@ -64,6 +64,12 @@
         "value_for_test": {
           "description": "[for testing] Default value for the custom value for testing"
         },
+        "value_preview": {
+          "description": "Value preview data for data types that need to show additional information to user."
+        },
+        "preview_value": {
+          "description": "Value of the custom value when app is shown as a generic preview. Default values are used if supplied, but sometimes apps cannot supply a default value for a required field. All required fields should have either value or preview_value"
+        },
         "required": {
           "description": "Is this value required or not",
           "type": "boolean",
